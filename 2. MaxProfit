@@ -1,0 +1,26 @@
+int maxProfit(int* prices, int pricesSize) {
+    int i,j,k;
+    int result,maxp;
+    int ar2[30];
+    int ps2;
+
+    ps2=sizeof(ar2[i])/sizeof(ar2[0]);
+
+    pricesSize=sizeof(prices[i])/sizeof(prices[0]);
+    for(i=0;i<pricesSize;i++){
+        j=0; 
+        for(j=i+1;j<pricesSize;j++){
+            maxp=prices[j]-prices[i];
+
+            if(maxp<=0)
+            continue;
+            if(maxp>0){
+                for(k=0;k<ps2;k++){
+
+                }
+            }
+
+        }
+    }
+    
+}
